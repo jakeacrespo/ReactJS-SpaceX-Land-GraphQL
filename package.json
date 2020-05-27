@@ -1,0 +1,27 @@
+{
+  "name": "react-starter-spacex-land",
+  "version": "1.0.0",
+  "description": "Let's learn building cool 🚀stuff!",
+  "keywords": ["react", "typescript", "spacex", "graphql"],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "apollo-boost": "0.1.23",
+    "graphql": "14.0.2",
+    "react": "16.7.0-alpha.2",
+    "react-apollo-hooks": "0.2.1",
+    "react-dom": "16.7.0-alpha.2",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/graphql": "14.0.5",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
